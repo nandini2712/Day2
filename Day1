@@ -1,0 +1,41 @@
+Code to check whether number is odd or even
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num;
+
+    cout << "Enter an integer: ";
+    cin >> num;
+
+    if (num % 2 == 0) {
+        cout << num << " is even." << endl;
+    }
+    else {
+        cout << num << " is odd." << endl;
+    }
+
+    return 0;
+}
+
+
+code to swap two numbers
+#include <iostream>
+
+int main()
+{
+    int a, b;
+
+    std::cout << "Enter two numbers to swap: ";
+    std::cin >> a >> b;
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    std::cout << "After swapping, a = " << a << " and b = " << b << std::endl;
+
+    return 0;
+}
